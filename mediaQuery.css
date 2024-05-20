@@ -1,0 +1,61 @@
+/*Para Celular*/
+@media screen and (min-width: 300px) and (max-width: 750px){
+    
+    .navbar-titulo{
+        font-size: 20px;
+    }
+
+    .img-1{
+        display: block;
+    }
+
+    .div-filtro{
+        font-size: 14px;
+    }
+
+    .btn-surf, .btn-premium{
+        padding: 2px 5px;
+    }
+
+    #Contatos{
+        width: 80%;
+        margin: auto;
+    }
+
+    .txt-contato{
+        font-size: 15px;
+    }
+
+    .link-ctt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+        width: 200px;
+    }
+}
+
+/*Para tablet*/
+@media screen and (min-width: 750px) and (max-width: 1300px) {
+    .img-2{
+        display: block;
+    }
+
+    .navbar-nav{
+        margin-left: 40%;
+    }
+
+    .card{
+        width: 16rem;
+    }
+}
+
+
+/*PC*/
+@media screen and (min-width: 1300px) {
+    .img-3{
+        display: block;
+    }
+
+
+}
